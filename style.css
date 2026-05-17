@@ -49,6 +49,7 @@ body{
     justify-content:center;
     min-height:100vh;
     background:#DEC9E9;
+    padding:0 10px;
 }
 
 .container{
@@ -205,3 +206,21 @@ font-weight:600;
 .game-mdl button{
     padding:12px 20px;
 }
+
+
+@media (max-width:782px){
+    .container{
+        flex-direction:column;
+        padding :30px 10px;
+        align-items:center;
+    }
+
+    .hangman-container img{
+        max-width:200px;
+    }
+
+    .hangman-container h1{
+        display:none;
+    }
+}
+
