@@ -129,31 +129,36 @@ text-align:center;
 
 }
 
-.keyboard button{
-    width:calc(100% / 9 - 5px);
-    text-transform:uppercase;
+:where(.game-mdl, .keyboard) button{
+    color:#fff;
     font-size:1.0rem;
     font-weight:500;
     outline:none;
-    color:#fff;
     background:#5E63BA;
     border-radius:4px;
     cursor:pointer;
-    padding:8px;
     border:none;
+    text-transform:uppercase;
+}
+
+.keyboard button{
+    width:calc(100% / 9 - 5px);
+padding:7px;
+    
 
 }
 
 
 
-.keyboard button:hover{
+:where(.game-mdl, .keyboarad) button:hover{
     background:#8286C9;
 }
 
 .game-mdl{
     position:fixed;
-    display:flex;
-    
+    display:none;
+    align-items:center;
+    justify-content:center;
     left: 0;
     top: 0;
     width:100%;
@@ -167,11 +172,36 @@ text-align:center;
 background:#fff;
 max-width:400px;
 width:100%;
+text-align:center;
+border-radius:10px;
+padding:30px;
 }
 
 
 
 .game-mdl img{
     max-width: 130px;
+    margin-bottom:20px;
 
+}
+
+
+.game-mdl h4{
+    font-size:1.7rem;
+}
+
+
+.game-mdl p{
+    font-size:1.1rem;
+    margin:15px 0 25px;
+    font-weight:600;
+}
+
+.game-mdl p b{
+color:#8187DC;
+font-weight:600;
+}
+
+.game-mdl button{
+    padding:12px 20px;
 }
