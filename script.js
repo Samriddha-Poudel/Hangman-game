@@ -29,7 +29,7 @@ const resetGame = () =>{
 const getRandomWord= () =>{
     const { word,hint}= wordlist[Math.floor(Math.random()* wordlist.length)];
     currentWord = word;
-    console.log(word);
+    
     document.querySelector(".hint-msg b").innerText= hint;
     resetGame();
     

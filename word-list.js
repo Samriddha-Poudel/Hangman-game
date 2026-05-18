@@ -124,5 +124,26 @@ hint:"A colorless, odorless gas essential for life."
     {
         word:"compass",
         hint:"A navigational tool that points to magnetic north"
-    }
+    },
+    {
+        word:"rainbow",
+        hint:"A colorful arc seen after the rain"
+    },
+    {
+        word:"factory",
+        hint:"A building where things are manufatured"
+    },
+    {
+        word:"elephant",
+        hint:"A large mamal with a trunk"
+    },
+
+    {
+        word:"whale",
+        hint:"Largest mamal"
+    },
+{
+    word:"insects",
+    hint:"Small creatures with six legs"              
+}
 ];
