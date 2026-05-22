@@ -9,11 +9,11 @@ word:"oxygen",
 hint:"A colorless, odorless gas essential for life."
     },
     {
-        word:"Mountain",
+        word:"mountain",
         hint:"A large natural elevation of the Earth's surface."
     },
     {
-         word:"Painting",
+         word:"painting",
          hint:"An art form using colors on surface to create images or expression."
     },
     {
