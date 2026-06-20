@@ -11,5 +11,4 @@ This is a simple Hangman Game that i have made using HTML , CSS and JS . In this
  ## How to use it :
   To play this game , you just need the web browser then visit https://samriddha-poudel.github.io/Hangman-game/ and play it ENJYOY.
 
-# Note:
-  This was mine starting project that i have deplyod  in beest i have deplyod all of mine project through netlify which i have sumbited and my free trail of netlify has been full of limit so my website is down in netlify so i have uploaded it from github pages so you can cehck it out from here this updated link which will work 
+
